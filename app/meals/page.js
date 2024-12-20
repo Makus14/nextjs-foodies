@@ -3,10 +3,7 @@ import Link from "next/link";
 export default function MealsPage() {
   return (
     <>
-      <main>Meal Page</main>
-      <p>
-        <Link href="/meals/share">Share Page</Link>
-      </p>
+      <h1>Meal Page</h1>
       <ul>
         <li>
           <Link href="/meals/dish-1">Dish 1</Link>
